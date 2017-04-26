@@ -41,5 +41,8 @@ class GamesController < ApplicationController
 
     render("/games/play_scissors.html.erb")
   end
+  def index
+    render("/games/index.html.erb")
+  end
 
 end
